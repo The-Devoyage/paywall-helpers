@@ -1,0 +1,22 @@
+{
+  "name": "@the-devoyage/paywall-helpers",
+  "version": "0.0.1",
+  "description": "A library to use within external services to assist with connecting to the @the-devoayge/graphql-paywall server",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "tsc -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nick",
+  "license": "ISC",
+  "peerDependenceis": {
+    "apollo-server-core": ">=3.6.7"
+  },
+  "devDependenceis": {
+    "apollo-server-core": "^3.6.7"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "typescript": "^4.6.4"
+  }
+}
